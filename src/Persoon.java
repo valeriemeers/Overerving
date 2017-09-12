@@ -1,4 +1,6 @@
 public class Persoon extends Adres {
+
+
     private String naam;
     private String voornaam;
     private Adres adres;
