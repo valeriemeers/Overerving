@@ -28,7 +28,7 @@ public class Werknemer extends Persoon {
         return salaris;
     }
 
-    public void setSalaris(int salaris) {
+    public void setSalaris(double salaris) {
         this.salaris = salaris > MIN_SALARIS ? salaris : MIN_SALARIS;
     }
 
